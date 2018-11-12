@@ -25,9 +25,7 @@
           <div class="navbar-nav">
             <a class="nav-item nav-link" href="#about">About</a>
             <a class="nav-item nav-link" href="#resume">Resume</a>
-            <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
-            <a class="nav-item nav-link" href="#contact">Contact</a>
-           
+            <a class="nav-item nav-link" href="#portfolio">Portfolio</a>           
           </div>
         </div>
       </nav>
@@ -36,7 +34,8 @@
     <!--Header-->
     
     <div class="header">
-        <h1>Hello, I'm Ashli!</h1> 
+        <h1>Hello, I'm Ashli!</h1>
+        <h6> Click my photo to contact me!</h6> 
         <img src="img/ashli.jpg" alt="Ashli Rhoads Headshot" class="photo">
 
     </div>
@@ -44,9 +43,10 @@
 
       <!--Main Body Content-->
 
+<br>
     <div id="container">
         <h2 id="about">About Me</h2>
-        <p>We don't really know where this goes - and I'm not sure we really care. Let's do it again then, what the heck. Let's put some happy trees and bushes back in here.
+        <p id="paragraphs">We don't really know where this goes - and I'm not sure we really care. Let's do it again then, what the heck. Let's put some happy trees and bushes back in here.
 
             Now it's beginning to make a little sense. Brown is such a nice color. Remember how free clouds are. They just lay around in the sky all day long. These trees are so much fun. I get started on them and I have a hard time stopping.
             
@@ -56,9 +56,10 @@
             </p>
     </div>
 
+<br>
     <div id="container">
             <h2 id="resume">Resume</h2>
-        <p>We'll put a happy little bush here. Sometimes you learn more from your mistakes than you do from your masterpieces. I'm gonna start with a little Alizarin crimson and a touch of Prussian blue It's hard to see things when you're too close. Take a step back and look. Maybe he has a little friend that lives right over here. We spend so much of our life looking - but never seeing.
+        <p id="paragraphs">We'll put a happy little bush here. Sometimes you learn more from your mistakes than you do from your masterpieces. I'm gonna start with a little Alizarin crimson and a touch of Prussian blue It's hard to see things when you're too close. Take a step back and look. Maybe he has a little friend that lives right over here. We spend so much of our life looking - but never seeing.
 
             Every day I learn. The secret to doing anything is believing that you can do it. Anything that you believe you can do strong enough, you can do. Anything. As long as you believe. A fan brush can be your best friend. This is gonna be a happy little seascape.
             
@@ -66,31 +67,45 @@
         </p>
     </div>
 
-    <div class="portfolio" id="container">
-            <h2 id="portfolio">Portfolio</h2>
-        <p>You can create the world you want to see and be a part of. You have that power. Didn't you know you had that much power? You can move mountains. You can do anything. The first step to doing anything is to believe you can do it. See it finished in your mind before you ever start.
+<br>
 
-            Poor old tree. In your world you can create anything you desire. Just let your mind wander and enjoy. This should make you happy.
-            
-            Maybe, just to play a little, we'll put a little tree here. Son of a gun. Almost everything is going to happen for you automatically - you don't have to spend any time working or worrying. There is immense joy in just watching - watching all the little creatures in nature.
-            
-            It's a very cold picture, I may have to go get my coat. It’s about to freeze me to death. If you've been in Alaska less than a year you're a Cheechako. Be so very light. Be a gentle whisper. Very easy to work these to death.
-        </p>
+<!--Bootstrap Carousel for Portfolio-->
+    <div class="portfolio">
+      <h2 id="portfolio">Portfolio</h2>
+      <img src="img/partners.jpg" alt="Photo of Shaun and Ashli" id="portfolio-photos"> 
+      <img src="img/porter.jpg" alt="Photo of Porter David" id="portfolio-photos">
+      <img src="img/ruby.jpg" alt="Photo of Ruby Elizabeth" id="portfolio-photos">
     </div> 
+<br>
 
-    <!--Magic Button for Contact-->
-    <div class="contact" id="container">
-        <h2 id="contact">Contact</h2>
-    <p>Want to get in touch?</p>
-        <button class="magic-button" onclick="myFunction()">Contact Me</button>
+<!--Contact Form-->
+
+    <div class="backdrop">
+    <div class="modal">
+        <h1>Get in Touch</h1>
+        <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email address:</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Message:</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </form>
+        <button>Submit</button>
+    </div>
     </div> 
+ 
+    
+    <br>
     <!--Main Body Content-->
 
 
 
     <!--Footer-->   
 <div class="footer">
-    <footer>Social Media Links & Other Foot Info</footer>
+    <footer>Social Media Links & Other Footer Info</footer>
 </div>
 
     <!--JavaScript Link-->

@@ -37,9 +37,13 @@ h6 {
     font: Helvetica;
 }
 
-#paragraphs {
+.about-paragraph {
     margin: 40px;
     display: inline-block;
+}
+
+.resume-content {
+    margin: 40px;
 }
 
 
@@ -59,10 +63,12 @@ h6 {
 
 .modal h1 {
     margin: 0;
+    color: #DF744A; 
+    font: Helvetica;
 }
 
 .modal button {
-    background: #fa923f;
+    background: #DF774A;
     color: white;
     border: 1px solid    #521751;
     font: Helvetica;

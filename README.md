@@ -2,8 +2,12 @@
 Project:  I made a resume/portfolio site
 
 CSS Classes:
-.header was used to algn my header center and change it colors
-ID #container was used to make sure that all of my paragraphs looked the same for alignment, padding, etc.
+.header is used to algn my header center and change it colors
+.photo is used to edit my headshot 
+#container was used to make sure that all of my paragraphs looked the same for alignment, padding, etc.
+#paragraphs was used to edit the text in my containers
+
+
 .magic-button was used for my JavaScript
 I am hoping to add additional CSS before the project is due.
 

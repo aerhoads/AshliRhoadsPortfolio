@@ -1,15 +1,9 @@
 # AshliRhoadsPortfolio
-Project:  I made a resume/portfolio site
+Project:  I made a resume/portfolio site.  There are no special requirements needed to run this project, to the best of my knowledge.
 
 CSS Classes:
-.header is used to algn my header center and change it colors
-.photo is used to edit my headshot 
-#container was used to make sure that all of my paragraphs looked the same for alignment, padding, etc.
-#paragraphs was used to edit the text in my containers
+My CSS classes are commented out to remind my and show you my intentions of where CSS is supposed to act in my page.  I feel like some of my CSS is redundant, so I tried to make IDs instead of classes to cut back on that, but I feel like it's still a little clunky (primarly in the text in the About Me & Resume paragraphs)
 
-
-.magic-button was used for my JavaScript
-I am hoping to add additional CSS before the project is due.
 
 JavaScript
-I used the magic-button to hide the "Contact Me" button when clicked, but I want to put a modal in for a contact submission form.  I'm hoping to add that before the project is due.
+After talking with two mentors, I decided to do my JavaScript portion of this project with a contact for modal.  I used querySelector to select classes in my HTML for my modal.  The modal opens and closes with a click event listener.  If you click inside the modal, you cannot type anything because the modal closes.  I was unable to get this worked out before the project deadline.

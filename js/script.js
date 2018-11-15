@@ -12,6 +12,6 @@ function closeModal () {
     modal.style.display = 'none';
 }
 
-myImg.onclick = openModal;
+myImg.onclick = openModal;  
 backdrop.onclick = closeModal;
 
